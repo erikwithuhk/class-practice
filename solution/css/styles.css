@@ -4,6 +4,43 @@
   padding: 0;
 }
 
+html,
 body {
-  background-color: crimson;
+  height: 100%;
+}
+
+body {
+  background: url('http://www.mysticseaport.org/wp-content/uploads/Museum-Store1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 25%;
+}
+
+.customer {
+  left: 20%;
+}
+
+.vendor {
+  right: 20%;
+}
+
+.speech {
+  background-color: #fff;
+  display: flex;
+  font-family: 'Gloria Hallelujah', cursive;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  text-align: center;
+  width: 100%;
+}
+
+.speech p {
+  width: 100%;
 }
