@@ -1,5 +1,5 @@
-const customer = new Customer('Erik');
+const customer = new Customer('Amy');
 const vendor = new Vendor('Vincenzo');
 
-customer.setClickListener();
-vendor.setClickListener();
+customer.render();
+vendor.render();
