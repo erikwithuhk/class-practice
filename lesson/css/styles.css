@@ -32,7 +32,6 @@ img {
 .speech {
   background-color: #fff;
   display: flex;
-  font-family: 'Gloria Hallelujah', cursive;
   align-items: center;
   position: fixed;
   bottom: 0;
